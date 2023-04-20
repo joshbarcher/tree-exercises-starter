@@ -232,8 +232,8 @@ public class TreeOperations
      *
      * @param root the root of a binary search tree
      * @param element the element to search for
-     * @return false if the element is not found or is not located in
-     * an internal node, or otherwise false
+     * @return false if the element is not found, or otherwise false
+     * @throws NoSuchElementException if the element is not found in the tree
      */
     public boolean isInternal(Node root, int element)
     {
